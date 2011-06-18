@@ -1,0 +1,33 @@
+		<div id="page">
+			<div id="container">
+				<!-- Start Advanced Gallery Html Containers -->
+				<div id="gallery" class="content">
+					<div id="controls" class="controls"></div>
+					<div class="slideshow-container">
+						<div id="loading" class="loader"></div>
+						<div id="slideshow" class="slideshow"></div>
+					</div>
+					<div id="caption" class="caption-container"></div>
+				</div>
+				<div id="thumbs" class="navigation">
+			  		<ul class="thumbs noscript">
+					<% @images.each do |image|%>
+						<li>
+							<a class="thumb" href="slides/<%=image.name%>.jpg" title="<%=image.name%>">
+								<img src="thumbs/<%=image.name%>.jpg" alt="32" width="90" height="90" />
+							</a>
+							<div class="caption">
+								<div class="image-title">32</div>
+									<div class="image-desc">
+										<p><%=image.description%></p>							
+									</div>
+							</div>
+						</li>
+					<%end%>
+					</ul>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<%=render 'pages/script'%>
+

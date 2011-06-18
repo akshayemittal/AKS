@@ -1,0 +1,85 @@
+body {
+	background: gray;
+}
+.container {
+	width: 950px;
+}
+.header{
+	padding-top: 20px;
+}
+div.company{
+	margin-top:1em;
+}
+h1.company{
+	font-size:3em;
+	font-family:"Goudy Stout";
+	padding-left:53px;
+	background:white;
+}
+.section {
+	margin-top: 5em;
+	font-size=120%;
+	padding:20px;
+	background: #fff;
+}
+/* Links */
+a {
+	color: #09c;
+	text-decoration: none;
+}
+a:hover {
+	color: #069;
+	text-decoration: underline;
+}
+a:visited {
+	color: #069;
+}
+
+/*Navigation*/
+.nav {
+	float:right;
+	background-color: white;
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0.2em 0;
+}
+li.navlist{
+	border-right:black 0.1em solid;
+}
+.nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+}
+.nav ul li a:visited {
+	color: #09c;
+}
+.nav ul li a:hover {
+	text-decoration: underline;
+}
+/* Round corners */
+.round {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: black 2px solid;
+}
+/*Footer*/
+.footer {
+	text-align: center;
+	margin-top: 10px;
+	width: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.footer .nav {
+	float: none;
+}
+
